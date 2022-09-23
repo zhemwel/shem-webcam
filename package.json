@@ -1,0 +1,6 @@
+{
+  "name": "shemwel-portfolio",
+  "scripts": {
+    "start": "live-server public --host=localhost --port=5500"
+  }
+}
