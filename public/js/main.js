@@ -11,23 +11,26 @@ const initMainPage = async () => {
     const $about = $("#about")
     const $skills = $("#skills")
     const $qualification = $("#qualification")
-    const $services = $("#services")
+    // const $services = $("#services")
     const $portfolio = $("#portfolio")
     const $project = $("#project")
-    const $testimonial = $("#testimonial")
+    // const $testimonial = $("#testimonial")
     const $contact = $("#contact")
+    const $footer = $("#footer")
 
     $home.html(min(homePage()))
     $about.html(min(aboutPage()))
     $skills.html(min(skillsPage()))
     $qualification.html(min(qualificationPage()))
-    $services.html(min(servicesPage()))
+    // $services.html(min(servicesPage()))
     $portfolio.html(min(portfolioPage()))
     $project.html(min(projectPage()))
-    $testimonial.html(min(testimonialPage()))
+    // $testimonial.html(min(testimonialPage()))
     $contact.html(min(contactPage()))
+    $footer.html(min(footerPage()))
 
     await allFunction()
+    swiperStart()
 }
 
 const init = async () => {

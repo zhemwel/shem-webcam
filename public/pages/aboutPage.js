@@ -11,28 +11,28 @@ const aboutPage = () => {
             <div class="about__data">
                 <p class="about__description">
                     Web Developer, with extensive knowledge and years of experience,
-                    working in web technologies and UI/UX design, delivering quality work.
+                    working in web technologies.
                 </p>
 
                 <div class="about__info">
                     <div>
-                        <span class="about__info-title">08+</span>
+                        <span class="about__info-title">3+</span>
                         <span class="about__info-name">Years <br> experience</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">20+</span>
+                        <span class="about__info-title">3+</span>
                         <span class="about__info-name">Completed <br> project</span>
                     </div>
 
                     <div>
-                        <span class="about__info-title">05+</span>
+                        <span class="about__info-title">6</span>
                         <span class="about__info-name">Companies <br> worked</span>
                     </div>
                 </div>
 
                 <div class="about__buttons">
-                    <a download="" href="pdf/Alexa-Cv.pdf" class="button button--flex">
+                    <a download="" href="pdf/CV.pdf" class="button button--flex">
                         Download CV  <i class="uil uil-download-alt button__icon"></i>
                     </a>
                 </div>

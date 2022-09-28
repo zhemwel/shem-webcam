@@ -136,17 +136,36 @@ const qualificationPage = () => {
                     <!--==================== QUALIFICATION 5 ====================-->
                     <div class="qualification__data">
                         <div>
-                            <h3 class="qualification__title">Fullstack Developer</h3>
+                            <h3 class="qualification__title">Backend Developer</h3>
                             <span class="qualification__subtitle">Talentlytica</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                July 2019 - Current
+                                July 2019 - March 2021
                             </div>
                         </div>
 
                         <div>
                             <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 6 ====================-->
+                    <div class="qualification__data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification__rounder"></span>
                             <!-- <span class="qualification__line"></span> -->
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__title">Fullstack Developer</h3>
+                            <span class="qualification__subtitle">Talentlytica</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                March 2021 - Current
+                            </div>
                         </div>
                     </div>
                 </div>

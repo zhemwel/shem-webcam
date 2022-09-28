@@ -12,9 +12,9 @@ const homePage = () => {
                             <i class="uil uil-linkedin-alt"></i>
                     </a>
 
-                    <a href="#" target="_blank" class="home__social-icon">
+                    <!-- a href="#" target="_blank" class="home__social-icon">
                         <i class="uil uil-dribbble"></i>
-                    </a>
+                    </a -->
 
                     <a
                         href="https://github.com/zhemwel"
@@ -42,7 +42,7 @@ const homePage = () => {
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
-                                <image class="home__blob-img" x="12" y="18" xlink:href="img/perfil.png"/>
+                                <image class="home__blob-img" x="20" y="2" xlink:href="img/perfil.png"/>
                             </g>
                     </svg>
                 </div>

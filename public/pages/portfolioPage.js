@@ -12,9 +12,9 @@ const portfolioPage = () => {
                     <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Twitter</h3>
-                        <p class="portfolio__description">Clone Twitter with React JS</p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
+                        <h3 class="portfolio__title">Twitter Clone</h3>
+                        <p class="portfolio__description">Tools : ReactJs, NextJs, Sanity CMS, Typescript, Tailwind & NextAuth</p>
+                        <a href="https://twitter-cloning.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -26,9 +26,9 @@ const portfolioPage = () => {
                     <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Reddit</h3>
-                        <p class="portfolio__description">Clone Reddit with React JS</p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
+                        <h3 class="portfolio__title">Reddit Clone</h3>
+                        <p class="portfolio__description">Tools : NextJs, SQL, Supabase, StepZen, GraphQL, TypeScript, Tailwind</p>
+                        <a href="https://reddit-cloning.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -40,9 +40,9 @@ const portfolioPage = () => {
                     <img src="img/portfolio3.jpg" alt="" class="portfolio__img">
 
                     <div class="portfolio__data">
-                        <h3 class="portfolio__title">Facebook</h3>
-                        <p class="portfolio__description">Clone Facebook with React JS</p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
+                        <h3 class="portfolio__title">Weeding Web</h3>
+                        <p class="portfolio__description">Tools : ReactJs, Firebase</p>
+                        <a href="https://shem-rolin.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>

@@ -22,11 +22,11 @@ const headerPage = () => {
 							<i class="uil uil-file-alt nav__icon"></i> Skills
 						</a>
 					</li>
-					<li class="nav__item">
+					<!-- li class="nav__item">
 						<a href="#services" class="nav__link">
 							<i class="uil uil-briefcase-alt nav__icon"></i> Services
 						</a>
-					</li>
+					</li -->
 					<li class="nav__item">
 						<a href="#portfolio" class="nav__link">
 							<i class="uil uil-scenery nav__icon"></i> Portfolio
