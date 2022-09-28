@@ -48,7 +48,7 @@ const homePage = () => {
                 </div>
 
                 <div class="home__data">
-                    <h1 class="home__title">Hi, I'am Shemwel</h1>
+                    <h1 class="home__title">Hi, I'm Shemwel</h1>
                     <h3 class="home__subtitle">Fullstack Developer</h3>
                     <p class="home__description">High level experience in Javascript and PHP</p>
                     <a href="#contact" class="button button--flex">
