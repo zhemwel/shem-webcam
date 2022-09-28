@@ -11,7 +11,7 @@ const footerPage = () => {
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#home" class="footer__link">Home</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Portfolio</a>
