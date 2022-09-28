@@ -14,7 +14,7 @@ const portfolioPage = () => {
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Twitter Clone</h3>
                         <p class="portfolio__description">Tools : ReactJs, NextJs, Sanity CMS, Typescript, Tailwind & NextAuth</p>
-                        <a href="https://twitter-cloning.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        <a href="https://twitter.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -28,7 +28,7 @@ const portfolioPage = () => {
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Reddit Clone</h3>
                         <p class="portfolio__description">Tools : NextJs, SQL, Supabase, StepZen, GraphQL, TypeScript, Tailwind</p>
-                        <a href="https://reddit-cloning.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        <a href="https://reddit.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -42,7 +42,7 @@ const portfolioPage = () => {
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Weeding Web</h3>
                         <p class="portfolio__description">Tools : ReactJs, Firebase</p>
-                        <a href="https://shem-rolin.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        <a href="https://wedding.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>

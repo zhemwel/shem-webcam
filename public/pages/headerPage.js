@@ -37,6 +37,11 @@ const headerPage = () => {
 							<i class="uil uil-message nav__icon"></i> Contact
 						</a>
 					</li>
+					<li class="nav__item">
+						<a href="https://www.zhemwel.net/" target="_blank" class="nav__link">
+							<i class="uil uil-blogger-alt nav__icon"></i> Blog
+						</a>
+					</li>
 				</ul>
 				<i class="uil uil-times nav__close" id="nav-close"></i>
 			</div>
