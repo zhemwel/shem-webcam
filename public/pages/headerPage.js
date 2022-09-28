@@ -38,7 +38,7 @@ const headerPage = () => {
 						</a>
 					</li>
 					<li class="nav__item">
-						<a href="https://www.zhemwel.net/" target="_blank" class="nav__link">
+						<a href="https://zhemwel.net/" target="_blank" class="nav__link">
 							<i class="uil uil-blogger-alt nav__icon"></i> Blog
 						</a>
 					</li>

@@ -14,7 +14,7 @@ const skillsPage = () => {
 
                         <div>
                             <h1 class="skills__title">Frontend Developer</h1>
-                            <span class="skills__subtitle">More than 2 years</span>
+                            <!-- span class="skills__subtitle">More than 2 years</span -->
                         </div>
 
                         <i class="uil uil-angle-down skills__arrow"></i>
@@ -173,7 +173,7 @@ const skillsPage = () => {
 
                         <div>
                             <h1 class="skills__title">Backend Developer</h1>
-                            <span class="skills__subtitle">More than 3 years</span>
+                            <!-- span class="skills__subtitle">More than 2 years</span -->
                         </div>
 
                         <i class="uil uil-angle-down skills__arrow"></i>

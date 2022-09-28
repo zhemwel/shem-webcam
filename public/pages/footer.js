@@ -5,30 +5,32 @@ const footerPage = () => {
 		<div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title">Shemwel</h1>
+                    <a href="#home" class="footer__link">
+                        <h1 class="footer__title">Shemwel</h1>
+                    </a>
                     <span class="footer__subtitle">Fullstack Developer</span>
                 </div>
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#home" class="footer__link">Home</a>
+                        <a href="#about" class="footer__link">About Me</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact&nbsp;Me</a>
+                        <a href="https://zhemwel.net/" target="_blank" class="footer__link">Blog</a>
                     </li>
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="https://facebook.com/" target="_blank" class="footer__social">
+                    <a href="https://facebook.com/zhemwel" target="_blank" class="footer__social">
                         <i class="uil uil-facebook-f"></i>
                     </a>
-                    <a href="https://instagram.com/" target="_blank" class="footer__social">
+                    <a href="https://instagram.com/shemweldennis" target="_blank" class="footer__social">
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                    <a href="https://twitter.com/shemweldennis" target="_blank" class="footer__social">
                         <i class="uil uil-twitter-alt"></i>
                     </a>
                 </div>

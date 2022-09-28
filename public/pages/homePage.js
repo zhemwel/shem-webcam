@@ -6,7 +6,7 @@ const homePage = () => {
             <div class="home__content grid">
                 <div class="home__social">
                     <a
-                        href="https://www.linkedin.com/in/shemwel-dennis-tambunan-25627017b/"
+                        href="https://www.linkedin.com/in/shemwel-dennis-tambunan/"
                         target="_blank"
                         class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
