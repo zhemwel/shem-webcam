@@ -808,6 +808,24 @@ img {
   outline: none;
 }
 
+.img-toggle {
+  width: 170px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background: url(../img/tiktok.png) center / cover;
+}
+
+.img-toggle-dark {
+  width: 400px;
+  height: 470px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background: url(../img/tiktok-light.png) center / cover;
+}
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;

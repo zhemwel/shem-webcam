@@ -123,7 +123,7 @@ const qualificationPage = () => {
                         </div>
 
                         <div>
-                            <h3 class="qualification__title">QA Program</h3>
+                            <h3 class="qualification__title">QA Tester</h3>
                             <span class="qualification__subtitle">Freeport Indonesia</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>

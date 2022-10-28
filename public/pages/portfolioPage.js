@@ -23,7 +23,7 @@ const portfolioPage = () => {
 
                 <!--==================== PORTFOLIO 2 ====================-->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+                    <img src="img/reddit.png" alt="" class="portfolio__img">
 
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Reddit Clone</h3>
@@ -43,6 +43,21 @@ const portfolioPage = () => {
                         <h3 class="portfolio__title">Weeding Web</h3>
                         <p class="portfolio__description">Tools : ReactJs, Firebase</p>
                         <a href="https://wedding.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 4 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <div id="image-portfolio" class="img-toggle">
+                    </div>
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Tiktok Clone</h3>
+                        <p class="portfolio__description">Tools : ReactJs, NextJS, Tailwind, Sanity CMS, Typescript & NextAuth</p>
+                        <a href="https://tiktok.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>

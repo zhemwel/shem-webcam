@@ -133,6 +133,7 @@ const allFunction = async () => {
     /*==================== DARK LIGHT THEME ====================*/
 	const themeFunction = () => {
         const $themeButton = $("#theme-button")
+				const $imagePortfolio = $("#image-portfolio")
         const darkTheme = "dark-theme"
         const iconTheme = "uil-sun"
 
@@ -159,6 +160,9 @@ const allFunction = async () => {
             // We save the theme and the current icon that the user chose
             localStorage.setItem("selected-theme", getCurrentTheme())
             localStorage.setItem("selected-icon", getCurrentIcon())
+
+						// if (getCurrentTheme() === "dark") $imagePortfolio.removeClass("img-toggle").addClass("img-toggle-dark")
+						// else $imagePortfolio.removeClass("img-toggle-dark").addClass("img-toggle")
         })
     }
 
