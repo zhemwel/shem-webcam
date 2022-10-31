@@ -57,7 +57,7 @@ const portfolioPage = () => {
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Tiktok Clone</h3>
                         <p class="portfolio__description">Tools : ReactJs, NextJS, Tailwind, Sanity CMS, Typescript & NextAuth</p>
-                        <a href="https://tiktok.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
+                        <a href="https://tiktik.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
