@@ -63,6 +63,21 @@ const portfolioPage = () => {
                         </a>
                     </div>
                 </div>
+
+                <!--==================== PORTFOLIO 5 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/Z.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">HR App</h3>
+                        <p class="portfolio__description">Tools : Laravel 9, Bootstrap 5, MySQL</p>
+                        <p class="portfolio__description">Credential Demo : alucard@gmail.com | 12345678</p>
+                        <a href="https://hrzhemwel.000webhostapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="swiper-button-next">
