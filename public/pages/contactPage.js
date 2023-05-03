@@ -30,34 +30,34 @@ const contactPage = () => {
 
                     <div>
                         <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">Indonesia - Medan</span>
+                        <span class="contact__subtitle">Medan - Indonesia</span>
                     </div>
                 </div>
             </div>
 
-            <form action="" class="contact__form grid">
+            <form class="contact__form grid">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input">
+                        <input id="nameContact" type="text" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input">
+                        <input id="emailContact" type="email" class="contact__input">
                     </div>
                 </div>
 
-                <div class="contact__content">
+                <!-- div class="contact__content">
                     <label for="" class="contact__label">Project</label>
                     <input type="text" class="contact__input">
-                </div>
+                </div -->
                 <div class="contact__content">
                     <label for="" class="contact__label">Message</label>
-                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    <textarea name="" id="messageContact" cols="0" rows="7" class="contact__input"></textarea>
                 </div>
 
                 <div>
-                    <a href="" class="button button--flex">
+                    <a id="submitContact" class="button button--flex">
                         Send Message
                         <i class="uil uil-message button__icon"></i>
                     </a>

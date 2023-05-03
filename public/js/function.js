@@ -12,7 +12,7 @@ const allFunction = async () => {
 		/* Validate if constant exists */
 		if ($navToggle) {
 			$navToggle.on("click", () => {
-                $navMenu.addClass("show-menu")
+				$navMenu.addClass("show-menu")
             })
 		}
 
@@ -166,10 +166,80 @@ const allFunction = async () => {
         })
     }
 
+	/*==================== DARK LIGHT THEME ====================*/
+	const mailFunction = () => {
+		const $submitContact = $("#submitContact")
+
+		$submitContact.on("click", () => {
+			const $name = $("#nameContact").val()
+			const $email = $("#emailContact").val()
+			const $message = $("#messageContact").val()
+
+			const isInputEmptyOrWhitespace = (input) => {
+				const pattern = /^\s*$/;
+
+				return pattern.test(input);
+			}
+
+			const isValidEmail = (email) => {
+				const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+				return pattern.test(email);
+			}
+
+			if (isInputEmptyOrWhitespace($name) || isInputEmptyOrWhitespace($email) || isInputEmptyOrWhitespace($message)) {
+				Toastify({
+					text: "Some Forms Are Empty",
+					duration: 3000,
+					style: {
+						background: "linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113))",
+					},
+				}).showToast()
+
+				return
+			}
+
+			if (!isValidEmail($email)) {
+				Toastify({
+					text: "Incorrect Email Format",
+					duration: 3000,
+					style: {
+						background: "linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113))",
+					},
+				}).showToast()
+
+				return
+			}
+
+			Email.send({
+				SecureToken : "8a514e09-9475-47e9-b964-29d4f31be71b",
+				To : "zhemwelamarta@gmail.com",
+				From : "master@zhemwel.net",
+				Subject : "Contact Me From Portfolio Shemwel",
+				Body : "Name: " + $name
+					+ "<br> Email: " + $email
+					+ "<br> Message: " + $message
+			}).then(
+				Toastify({
+					text: "Message Sent Successfully, Wait For My Response",
+					duration: 3000,
+					style: {
+						background: "linear-gradient(to right, #00b09b, #96c93d)",
+					},
+				}).showToast()
+			)
+
+			$("#nameContact").val("")
+			$("#emailContact").val("")
+			$("#messageContact").val("")
+		})
+	}
+
 	navFunction()
 	skillsFunction()
 	qualificationFunction()
-	// servicesFunction()
 	scrollFunction()
 	themeFunction()
+	mailFunction()
+	// servicesFunction()
 }

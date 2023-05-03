@@ -395,6 +395,15 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.button--flex-custom {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 172.72px;
+  height: 62px;
 }
 
 .button--small {
@@ -410,6 +419,10 @@ img {
 .button--link:hover {
   background-color: transparent;
   color: var(--first-color-alt);
+}
+
+.buttonDiv {
+  justify-content: space-between;
 }
 
 /*==================== ABOUT ====================*/
@@ -838,11 +851,12 @@ img {
 
 .project__title {
   font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: 1.5rem;
 }
 
 .project__description {
-  margin-bottom: var(--mb-1-5);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .project__title,
@@ -941,6 +955,18 @@ img {
   border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+}
+
+.contact__form {
+    width: 460px;
+  }
+
+.contact__inputs {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact__buttons {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /*==================== FOOTER ====================*/
@@ -1346,13 +1372,5 @@ img {
 
   .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
-  }
-
-  .contact__form {
-    width: 460px;
-  }
-
-  .contact__inputs {
-    grid-template-columns: repeat(2, 1fr);
   }
 }

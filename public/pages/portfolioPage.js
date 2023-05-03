@@ -57,7 +57,7 @@ const portfolioPage = () => {
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Tiktok Clone</h3>
                         <p class="portfolio__description">Tools : ReactJs, NextJS, Tailwind, Sanity CMS, Typescript & NextAuth</p>
-                        <a href="https://tiktok-cloning.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                        <a href="https://tiktok.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -73,6 +73,20 @@ const portfolioPage = () => {
                         <p class="portfolio__description">Tools : Laravel 9, Bootstrap 5, MySQL</p>
                         <p class="portfolio__description">Credential Demo : alucard@gmail.com | 12345678</p>
                         <a href="https://hrzhemwel.000webhostapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO 6 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/google-docs.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Google Docs Clone</h3>
+                        <p class="portfolio__description">Tools : Next.js, Rich Text Editor, Tailwind CSS & Firebase</p>
+                        <a href="https://google-docs.zhemwel.net/" target="_blank" class="button button--flex button--small portfolio__button">
                             Demo
                             <i class="uil uil-arrow-right button__icon"></i>
                         </a>
