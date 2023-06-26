@@ -105,7 +105,10 @@
                 } else {
                     if (videoDevices.length > 0) {
                         videoDevices.forEach((videoDevice, index) => {
-                            if (!videoDevice.label) return
+                            if (!videoDevice.label) {
+                                selectedCameraChange
+                                return
+                            }
                             let option = document.createElement('option');
                             option.value = videoDevice.deviceId;
                             let label = videoDevice.label || `Camera ${index + 1}`;
@@ -154,7 +157,8 @@
                 stream = _stream;
                 video.srcObject = stream;
             }).catch(err => {
-                console.error('openCamera: ', err)
+                alert("Pilih Kamera Terlebih Dahulu")
+                // console.error('openCamera: ', err)
             });
         }
 
