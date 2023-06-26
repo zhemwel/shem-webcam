@@ -12,6 +12,7 @@ const init = async () => {
     $app.html(min(mainPage()))
 
     await initMainPage()
+    await allFunction()
 }
 
 init()
