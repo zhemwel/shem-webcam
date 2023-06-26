@@ -105,6 +105,7 @@
                 } else {
                     if (videoDevices.length > 0) {
                         videoDevices.forEach((videoDevice, index) => {
+                            if (!videoDevice.label) return
                             let option = document.createElement('option');
                             option.value = videoDevice.deviceId;
                             let label = videoDevice.label || `Camera ${index + 1}`;
