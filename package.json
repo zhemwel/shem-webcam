@@ -1,5 +1,5 @@
 {
-  "name": "shemwel-portfolio",
+  "name": "shem-webcam",
   "scripts": {
     "start": "live-server public --host=localhost --port=5500"
   }
