@@ -2,32 +2,48 @@
 
 const mainPage = () => {
 	return `
-        <section class="home section" id="home">
-        </section>
+        <div class="container">
 
-        <section class="about section" id="about">
-        </section>
+                <h1 style="color: #008CBA; text-align: center;"> Cek Device </h1>
 
-        <section class="skills section" id="skills">
-        </section>
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'Webcam')" id="defaultOpen">Webcam</button>
+			<button class="tablinks" onclick="openTab(event, 'Microphone')">Microphone</button>
+		</div>
 
-        <section class="qualification section" id="qualification">
-        </section>
+		<div id="Webcam" class="webcam tabcontent">
+			<h2> Cek Webcam </h2>
 
-        <!-- section class="services section" id="services">
-        </ section -->
+			<label> Pilih Webcam : </label>
+			<select id="selectCamera">
+				<!-- Opstional, jika ada opsi default -->
+				<option value="None">Pilih webcam</option>
+			</select>
+			<br>
+			<br>
+			<video id="video" autoplay></video>
+			<button id="btnCapture">Capture</button>
+			<br>
+			<br>
+			<img src="">
 
-        <section class="portfolio section" id="portfolio">
-        </section>
+		</div>
 
-        <section class="project section" id="project">
-        </section>
+		<div id="Microphone" class="mic tabcontent">
+			<h2> Cek Microphone </h2>
 
-        <!-- section class="testimonial section" id="testimonial">
-        </ section -->
+			<label> Pilih Microphone : </label>
+			<select id="selectMicrophone"></select>
+			<br>
+			<br>
+			<button id="btnSpeak"> Speak </button>
+			<br>
+			<br>
+			<textarea class="speech" disabled></textarea>
 
-        <section class="contact section" id="contact">
-        </section>
+		</div>
+
+	</div>
 	`
 }
 
