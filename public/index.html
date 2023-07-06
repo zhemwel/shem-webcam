@@ -76,7 +76,7 @@
         <div id="Webcam" class="webcam tabcontent" style="display: flex; align-items: center; justify-content: center;">
             <select id="selectCamera">
                 <!-- Opstional, jika ada opsi default -->
-                <option value="None">Pilih webcam</option>
+                <option value="None">Pilih Webcam</option>
             </select>
             <video id="video" autoplay></video>
             <button id="btnCapture">Capture</button>
@@ -95,7 +95,7 @@
                     // Mendapatkan nilai dari setiap elemen option dan menambahkannya ke array
                     optionValues.push(videoSelect.options[i].value);
                 }
-                const arrayVirtual = ["OBS", "Virtual"]
+                const arrayVirtual = ["OBS", "Virtual", "VCam", "Snap", "XSplit", "ManyCam", "ChromaCam", "SplitCam", "AlterCam", "WebcamMax", "YouCam", "vMix", "EpocCam", "DroidCam", "iVCam", "e2eSoft", "NDI", "CamTwist", "SplitmediaLabs", "SparkoCam", "Webcamoid", "WebcamStudio"]
                 const regexPattern = new RegExp(arrayVirtual.join("|"), "i")
 
                 let videoDevices = devices.filter(device => device.kind === 'videoinput' && !regexPattern.test(device.label));
